@@ -1,9 +1,9 @@
 # LunarLander-v2
 Using Stable-Baselines 3 library to train a LunarLander-v2 agent. Methods used: DQN and CEM.
 # Key plots:
-# Gif of the evolution of the policy learned with DQN:
+# Gif of the evolution of the policy learned with DQN (reward 260 +- 30):
 ![](/policy_gifs/dqn_pos.gif)
-# Gif of the evolution of the policy learned with CEM:
+# Gif of the evolution of the policy learned with CEM (reward 280 +- 18):
 ![](/policy_gifs/cem_pos.gif)
 ## Visulaizations of the policy learned by CEM (reward 280 +- 18):
 ![image](/report_and_figures/figures/cem/CEM_POS.png)
