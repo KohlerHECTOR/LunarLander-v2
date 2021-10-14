@@ -1,5 +1,13 @@
 # LunarLander-v2
 Using Stable-Baselines 3 library to train a LunarLander-v2 agent. Methods used: DQN and CEM.
+Train a dqn agent on LunarLander-v2:
+```
+python3 train_dqn.py
+```
+Use Tensorboard to visualize learning:
+```
+tensorboard --logdir dqn_lunarLand2_tensorboard/
+```
 # Key plots:
 # Gif of the evolution of the policy learned with DQN (reward 260 +- 30):
 ![](/policy_gifs/dqn_pos.gif)
