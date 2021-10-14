@@ -9,7 +9,7 @@ env = make("LunarLander-v2")
 
 DEFAULT_HYPERPARAMS = {
 "policy": "MlpPolicy",
-"env": ENV_ID,
+"env": env,
 # "callback": checkpoint_callback,
 "tensorboard_log":"./dqn_lunarLand2_tensorboard/"
 }
