@@ -1,4 +1,5 @@
 # LunarLander-v2
+REQUIRES PYTHON<3.9
 Using Stable-Baselines 3 library to train a LunarLander-v2 agent. Methods used: DQN and CEM.
 Train a dqn agent on LunarLander-v2:
 ```
